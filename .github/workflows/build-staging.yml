@@ -41,9 +41,9 @@ jobs:
         uses: Azure/setup-helm@v3.3
         with:
           version: v3.3.1
-        
-      - name: Login Azure
-        uses: azure/login@v1
+          
+      - name: Azure Login
+        uses: Azure/login@v1.4.5
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           
