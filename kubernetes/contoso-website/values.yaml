@@ -1,0 +1,7 @@
+image:
+  registry: contosocontainerregistry31277
+  name: contoso-website
+  tag: latest
+
+dns:
+  name: 82e8160ca9704d00b342.eastus.aksapp.io
